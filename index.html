@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop API</title>
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!--JavaScript-->
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+
+    <div class="boards">
+        <div class="board">
+            <h3>Things to do</h3>
+            <div class="dropzone">
+                <div class="card" draggable="true">
+                    <div class="status red"></div>
+                    <div class="content">
+                        <p>Criar Projeto Drag and Drop</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="board">
+            <h3>In progress</h3>
+            <div class="dropzone">
+                <div class="card" draggable="true">
+                    <div class="status yellow"></div>
+                    <div class="content">
+                        <p>Por o projeto em pratica</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="board">
+            <h3>Completed</h3>
+            <div class="dropzone">
+                <div class="card" draggable="true">
+                    <div class="status greem"></div>
+                    <div class="content">
+                        <p>Subir projeto no Github</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
