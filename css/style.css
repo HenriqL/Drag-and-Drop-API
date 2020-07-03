@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #130f0d;
+    color:#f1f1f1;
+
+}
+.boards{
+    display: flex;
+    justify-content: center;
+    margin: 32px 70px;
+
+}
+
+.board{
+    background: #222020;
+    border-radius: 4px;
+    margin: 0 16px;
+}
+.board h3{
+    padding: 16px;
+    margin: 0;
+    color: rgb(252, 151, 0);
+    text-align: center;
+
+}
+.dropzone{
+    padding: 16px;
+    min-width: 290px;
+    min-height: 200px;
+}
+.card{
+    padding: 16px;
+    box-shadow: 0  2px 2px -1px #fd951fcc;
+    width: 250px;
+    margin: 25px 0;
+    border-radius: 4px;
+    background-color: rgb(41, 37, 37);
+}
+.card .content{
+    font-weight: 600;
+    font-size: 16px;
+}
+.status{
+    width: 38px;
+    height: 5px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+.status.red{
+    background-color: rgb(235, 57, 57);
+}
+.status.yellow{
+    background-color: rgb(248, 245, 45);
+}
+.status.greem{
+    background-color: rgb(24, 238, 95);
+}
+
+
+
+
+/* Classes para adicionar com o drags */
+
+.highlight{
+    background-color: #ffffff15;   
+}
+.card, .dropzone{
+    transition: all 400ms;
+}
+.is-dragging{
+    cursor: pointer;
+    opacity: .2;   
+}
